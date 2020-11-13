@@ -50,6 +50,9 @@ cd be-the-hero-omnistack-11/
 # Instale as dependências em /backend, /frontend e /mobile
 npm install
 
+# No /backend, rode as migrations
+npx knex migrate:latest
+
 # Rode o backend
 npm start
 
